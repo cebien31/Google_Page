@@ -1,0 +1,149 @@
+
+body {
+    margin: 0;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-menu a {
+    padding: 7px;
+}
+
+.apps {
+    margin-top: 12px;
+    opacity: 0.5;
+}
+
+.my-picture img {
+    border-radius: 70px;
+}
+
+.apps:hover {
+    margin-top: 12px;
+    opacity: 1;
+}
+
+.text1, .text2 {
+    text-decoration: none;
+    color: #000;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.google-name {
+    text-align: center;
+    margin-top: 100px;
+
+}
+.search{
+    text-align: center;
+}
+
+input[type="search"] {
+    padding-left: 15px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    width: 583px;
+    background: url(https://img.generation-nt.com/google-micro-logo_012C00C801628319.jpg) no-repeat scroll 530px 11px;
+    background-size: 35px 24px;
+    outline: none;
+  }
+
+  .search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+    .btn {
+        margin-left:540px;
+        margin-top: 20px;
+    }
+
+    .btn2 {
+        padding: 15px 15px;
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+        background-color: #F6F6F6;
+        border-radius: 3px;
+        text-decoration: none;
+        color: gray;
+    }
+
+    .btn1 {
+        padding: 15px 20px;
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+        background-color: #F6F6F6;
+        border-radius: 3px;
+        text-decoration: none;
+        color: gray;
+    }
+
+    .btn1:hover, .btn2:hover{
+        border: 1px solid #ccc;
+    }
+
+    .mother-tongue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        font-family: arial;
+        font-size: 13px;
+      }
+      
+    .tongue-find {
+        margin-left: 15px;
+        text-decoration: none;
+        font-size: 13px;
+      }
+
+      .tongue-find:hover {
+        text-decoration: underline;
+    }
+
+    .google-offer {
+        margin-left: 15px;
+    }
+   
+    .haiti {
+        margin-top: 100px;
+        padding: 10px 30px;
+        border-top: 1px solid #e4e4e4;
+        background-color: #F2F3F2;
+        left: 0;
+        color: #78736F;
+    }
+    .footer {
+        display: flex;
+        padding: 10px;
+        background-color: #F2F3F2;
+        border-top: 1px solid #e4e4e4;
+        justify-content: space-between;
+    }
+
+    .footer-left a,
+    .footer-right a  {
+        text-decoration: none;
+        color: #78736F;
+        padding-left: 20px;
+    }
+
+    .footer-left 
+    .footer-right  {
+       font-family: sans-serif;
+       font-size: 12px;
+    }
+
+    .footer-left a:hover, 
+    .footer-right a:hover  {
+        text-decoration: underline;
+    }
